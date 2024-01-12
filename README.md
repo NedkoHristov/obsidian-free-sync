@@ -20,7 +20,7 @@ The script is intended to be run using a zsh shell, because it's ment to run on 
 Run the script using the following command:
 
 ```
-./obsidian-sync.sh
+# ./obsidian-sync.sh
 ```
 
 ```
@@ -44,7 +44,7 @@ Options
 ### Example Usage:
 
 ```
-./obsidian-sync.sh -log
+# ./obsidian-sync.sh -log
 ```
 
 ## Scheduled execution with crontab
@@ -53,7 +53,7 @@ To run the script on a scheduled manner you can use crontab. To define on what e
 [crontab.guru](https://crontab.guru/). On the example I'll run the script on every 30 minutes.
 
 ```
-crontab -e
+# crontab -e
 ```
 
 ```
